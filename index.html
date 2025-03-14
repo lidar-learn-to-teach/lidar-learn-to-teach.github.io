@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Learn to Teach: Sample-Efficient Privileged Learning for Humanoid Locomotion over Diverse Terrains">
+    content="Learn to Teach: Sample-Efficient Privileged Learning for Humanoid Locomotion over Diverse Terrains">
   <meta name="keywords" content="Reinforcement Learning, Robotics, Humanoid, Locomotion">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Learn to Teach: Sample-Efficient Privileged Learning for Humanoid Locomotion</title>
@@ -22,15 +23,13 @@
     gtag('config', 'G-PYVRSFMDRL');
   </script>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.svg">
 
@@ -40,136 +39,137 @@
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
 </head>
+
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://www.feiyangwu.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://www.feiyangwu.com">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
         </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://lab-idar.gatech.edu">
-            LIDAR Lab
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
           </a>
-          <a class="navbar-item" href="https://sites.google.com/view/brainml/home">
-            BRIANML Lab
-          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://lab-idar.gatech.edu">
+              LIDAR Lab
+            </a>
+            <a class="navbar-item" href="https://sites.google.com/view/brainml/home">
+              BRIANML Lab
+            </a>
+          </div>
         </div>
       </div>
+
     </div>
-
-  </div>
-</nav>
+  </nav>
 
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Learn to Teach: Sample-Efficient Privileged Learning for Humanoid Locomotion over Diverse Terrains</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://www.feiyangwu.com">Feiyang Wu</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="#">Xavier Nal</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="#">Jaehwi Jang</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="#">Wei Zhu</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="#">Zhaoyuan Gu</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="#">Anqi Wu</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="#">Ye Zhao</a><sup>1</sup>
-            </span>
-          </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Georgia Institute of Technology,</span>
-            <span class="author-block"><sup>2</sup>École Polytechnique Fédérale de Lausanne</span>
-          </div>
-
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
           <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- PDF Link. -->
-              <span class="link-block">
-                <a href="#"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
+            <h1 class="title is-1 publication-title">Learn to Teach: Sample-Efficient Privileged Learning for Humanoid
+              Locomotion over Diverse Terrains</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://www.feiyangwu.com">Feiyang Wu</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="#">Xavier Nal</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="#">Jaehwi Jang</a><sup>1</sup>,
               </span>
-              <span class="link-block">
-                <a href="#"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
+              <span class="author-block">
+                <a href="#">Wei Zhu</a><sup>1</sup>,
               </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=pkw4gxOn6Ho"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
+              <span class="author-block">
+                <a href="#">Zhaoyuan Gu</a><sup>1</sup>,
               </span>
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="#"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
+              <span class="author-block">
+                <a href="#">Anqi Wu</a><sup>1</sup>,
               </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <a href="#"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
+              <span class="author-block">
+                <a href="#">Ye Zhao</a><sup>1</sup>
+              </span>
             </div>
 
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Georgia Institute of Technology,</span>
+              <span class="author-block"><sup>2</sup>École Polytechnique Fédérale de Lausanne</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="#" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="#" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=pkw4gxOn6Ho"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/GTLIDAR/IsaacLab/tree/dev"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/GTLIDAR/IsaacLab/blob/dev/source/isaaclab_assets/data/Robot/Agility/digit/digit_v3_oct28.usd"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-images"></i>
+                    </span>
+                    <span>Digit Model</span>
+                  </a>
+                </span>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- <section class="hero teaser">
+  <!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -183,7 +183,7 @@
   </div>
 </section> -->
 
-<!-- 
+  <!-- 
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
@@ -242,42 +242,53 @@
 </section> -->
 
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Humanoid robots promise transformative capabilities for industrial and service applications. While recent advances in Reinforcement Learning (RL) yield impressive results in locomotion, manipulation, and navigation, the proposed methods typically require enormous simulation samples to account for real-world variability.
-          </p>
-          <p>
-            This work proposes a novel one-stage training framework—Learn to Teach (L2T)—which unifies teacher and student policy learning. Our approach recycles simulator samples and synchronizes the learning trajectories through shared dynamics, significantly reducing sample complexities and training time while achieving state-of-the-art performance.
-          </p>
-          <p>
-            Furthermore, we validate the RL variant (L2T-RL) through extensive simulations and hardware tests on the Digit robot, demonstrating zero-shot sim-to-real transfer and robust performance over 12+ challenging terrains.
-          </p>
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Humanoid robots promise transformative capabilities for industrial and service applications. While recent
+              advances in Reinforcement Learning (RL) yield impressive results in locomotion, manipulation, and
+              navigation, the proposed methods typically require enormous simulation samples to account for real-world
+              variability.
+            </p>
+            <p>
+              This work proposes a novel one-stage training framework—Learn to Teach (L2T)—which unifies teacher and
+              student policy learning. Our approach recycles simulator samples and synchronizes the learning
+              trajectories through shared dynamics, significantly reducing sample complexities and training time while
+              achieving state-of-the-art performance.
+            </p>
+            <p>
+              Furthermore, we validate the RL variant (L2T-RL) through extensive simulations and hardware tests on the
+              Digit robot, demonstrating zero-shot sim-to-real transfer and robust performance over 12+ challenging
+              terrains.
+            </p>
+          </div>
         </div>
       </div>
+      <!--/ Abstract. -->
+
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Video</h2>
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/pkw4gxOn6Ho?si=EcHfX0gOf0z9f5NB" title="Learn to Teach"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!--/ Paper video. -->
     </div>
-    <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/pkw4gxOn6Ho?si=EcHfX0gOf0z9f5NB" title="Learn to Teach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div> 
-    <!--/ Paper video. -->
-  </div>
-</section>
+  </section>
 
 
-<!-- <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{wu2023learn,
@@ -290,29 +301,28 @@
 </section> -->
 
 
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/FeiyangWuPK" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is borrowed from <a
-              href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
-          </p>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="./static/videos/paper.pdf">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/FeiyangWuPK" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
+
 </html>
