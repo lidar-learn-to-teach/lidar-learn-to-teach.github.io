@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="./static/images/favicon.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -115,7 +115,7 @@
               <div class="publication-links">
                 <!-- PDF Link. -->
                 <span class="link-block">
-                  <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/pdf/2402.06783" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
@@ -123,7 +123,7 @@
                   </a>
                 </span>
                 <span class="link-block">
-                  <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/abs/2402.06783" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
                     </span>
@@ -168,78 +168,6 @@
       </div>
     </div>
   </section>
-
-  <!-- <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Learn to Teach</span> enables sample-efficient learning for robust humanoid locomotion over diverse terrains.
-      </h2>
-    </div>
-  </div>
-</section> -->
-
-  <!-- 
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 
 
   <section class="section">
@@ -287,18 +215,183 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Outdoor Environments -->
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-3">Outdoor Environments</h2>
+            <video id="gtmi-outdoor" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-GTMI_outdoor.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Robust walking in outdoor campus environment</p>
+          </div>
+        </div>
+      </div>
+      <!--/ Outdoor Environments -->
 
-  <!-- <section class="section" id="BibTeX">
+      <!-- Concrete -->
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-3">Concrete</h2>
+            <video id="concrete" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-concrete.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Stable walking on flat concrete surface with strong wind</p>
+          </div>
+        </div>
+      </div>
+      <!--/ Concrete -->
+
+      <!-- Indoor Environments -->
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-3">Indoor Environments</h2>
+            <video id="gtmi-indoor" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-GTMI_indoor.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Navigation through indoor corridors and spaces</p>
+          </div>
+        </div>
+      </div>
+      <!--/ Indoor Environments -->
+
+
+      <!-- Challenging Terrains -->
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-3">Challenging Terrains</h2>
+            <video id="rocky" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-rocky.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Traversing rocky terrain with uneven surfaces</p>
+
+            <video id="sand" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-sand1.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Walking on loose sand surface</p>
+
+            <video id="gravel" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-gravel_pavement.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Stable walking on gravel pavement</p>
+
+            <video id="grass" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-grass.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Walking on natural grass surface</p>
+          </div>
+        </div>
+      </div>
+      <!--/ Challenging Terrains -->
+
+      <!-- Dynamic Behaviors -->
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-3">Dynamic Behaviors</h2>
+            <video id="turning" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-turn.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Smooth turning behavior</p>
+
+            <video id="football-field" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-football_field_forward.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Forward walking on football field</p>
+
+            <video id="football-field-turning" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-football_field_turning.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Turning on football field</p>
+          </div>
+        </div>
+      </div>
+      <!--/ Dynamic Behaviors -->
+
+      <!-- External Forces -->
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-3">External Forces</h2>
+            <video id="push-forward" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-push_forward.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Recovery from forward push</p>
+
+            <video id="push-backward" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-push_backward.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Recovery from backward push</p>
+
+            <video id="pull" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-pull.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Recovery from pulling force</p>
+          </div>
+        </div>
+      </div>
+      <!--/ External Forces -->
+
+      <!-- Special Conditions -->
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-3">Special Conditions</h2>
+            <video id="slippery-demo" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-slippery_demo.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Demonstrating the slippery surface</p>
+
+            <video id="slippery" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-slippery_l2t.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Walking on slippery surface with L2T policy</p>
+
+            <video id="slippery-company" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-slippery_company.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Walking on slippery surface with the company controller from Agility Robotics</p>
+
+            <video id="payload" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-payload.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Carrying payload while walking</p>
+
+            <video id="elevation" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/edited-elevation.m4v" type="video/mp4">
+            </video>
+            <p class="has-text-centered">Walking on elevated surface</p>
+          </div>
+        </div>
+      </div>
+      <!--/ Special Conditions -->
+
+    </div>
+  </section>
+
+  <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{wu2023learn,
-  author    = {Wu, Feiyang and Nal, Xavier and Jang, Jaehwi and Zhu, Wei and Gu, Zhaoyuan and Wu, Anqi and Zhao, Ye},
-  title     = {Learn to Teach: Sample-Efficient Privileged Learning for Humanoid Locomotion over Diverse Terrains},
-  journal   = {},
-  year      = {2023},
-}</code></pre>
+    <pre>
+      <code>
+        @misc{wu2025learnteachsampleefficientprivileged,
+          title={Learn to Teach: Sample-Efficient Privileged Learning for Humanoid Locomotion over Diverse Terrains}, 
+          author={Feiyang Wu and Xavier Nal and Jaehwi Jang and Wei Zhu and Zhaoyuan Gu and Anqi Wu and Ye Zhao},
+          year={2025},
+          eprint={2402.06783},
+          archivePrefix={arXiv},
+          primaryClass={cs.RO},
+          url={https://arxiv.org/abs/2402.06783}, 
+        }
+      </code>
+    </pre>
   </div>
-</section> -->
+  </section>
 
 
   <footer class="footer">
